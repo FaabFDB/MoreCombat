@@ -25,15 +25,10 @@ public final class MoreCombat extends JavaPlugin {
         // Plugin startup logic
         plugin = this;
 
-
         // Initialize
         registerEvents();
         CommandHandler.registerCommands();
         PotionEffectHandler.LoadPotionEffects();
-
-
-
-
     }
 
     @Override

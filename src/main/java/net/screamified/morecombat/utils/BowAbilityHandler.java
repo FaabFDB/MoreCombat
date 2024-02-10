@@ -1,5 +1,6 @@
 package net.screamified.morecombat.utils;
 
+import net.kyori.adventure.text.Component;
 import net.screamified.morecombat.Abilities.Abilities;
 import net.screamified.morecombat.MoreCombat;
 import net.screamified.morecombat.Abilities.BowAblities.BowAbilities;
@@ -10,6 +11,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +22,7 @@ public class BowAbilityHandler implements Listener {
     public static void setBowAbility(ItemStack bow, String abilityName, Player player) {
         List<String> itemLore = new ArrayList<>();
         ItemMeta heldItemMeta = bow.getItemMeta();
+
         if((bow.getItemMeta().hasLore())) {
             itemLore = heldItemMeta.getLore();
             for (String ability : itemLore) {
@@ -37,6 +40,7 @@ public class BowAbilityHandler implements Listener {
             }
         }
         heldItemMeta.setLore(itemLore);
+        heldItemMeta.displayName(Component.text(abilityName.toUpperCase()));
         bow.setItemMeta(heldItemMeta);
 //        NBTHandler.addNBT(bow, "bowability", abilityName.toUpperCase());
     }
