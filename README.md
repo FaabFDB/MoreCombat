@@ -8,8 +8,8 @@ You can also add potion effect(s) to the sword if you want to do that with a cer
 
 Usages:
 
-/morecombat addbowability <Ability Name>
+/morecombat addbowability <Ability>
 
-/morecombat addswordability <Ability Name>
+/morecombat addswordability <Ability>
 
 /addpotioneffect <Potion Effect> <Amplify> <Duration eg: M:S, MM:SS>
