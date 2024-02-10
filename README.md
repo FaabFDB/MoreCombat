@@ -4,7 +4,7 @@ This plugin uses PaperMC v1.16.5, it doesn't have anything special and is a roug
 
 This mod allows you to add certain abilities to your bow or sword.
 
-You can also add potion effect to the sword if you want to do that with a certain timit limit.
+You can also add potion effect(s) to the sword if you want to do that with a certain timit limit.
 
 Usages:
 
