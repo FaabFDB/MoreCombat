@@ -6,5 +6,7 @@ You can also add potion effect to the sword if you want to do that with a certai
 
 Usages:
 /morecombat addbowability <Ability Name>
+
 /morecombat addswordability <Ability Name>
+
 /addpotioneffect <Potion Effect> <Amplify> <Duration eg: M:S, MM:SS>
