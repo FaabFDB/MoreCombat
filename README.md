@@ -18,8 +18,8 @@ Showcase:
 
 Meteorshot:
 
-https://github.com/FaabFDB/MoreCombat/blob/master/showcase/MeteorShot.gif
+![](https://github.com/FaabFDB/MoreCombat/blob/master/showcase/MeteorShot.gif)
 
 ORBITALSTRIKE:
 
-https://github.com/FaabFDB/MoreCombat/blob/master/showcase/OrbitalStrike.gif
+![](https://github.com/FaabFDB/MoreCombat/blob/master/showcase/OrbitalStrike.gif)
