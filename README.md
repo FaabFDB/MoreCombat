@@ -22,4 +22,4 @@ Meteorshot:
 
 ORBITALSTRIKE:
 
-![](https://github.com/FaabFDB/MoreCombat/blob/master/showcase/OrbitalStrike.gif)
+![](https://github.com/FaabFDB/MoreCombat/blob/master/showcase/Orbitalstrike.gif)
