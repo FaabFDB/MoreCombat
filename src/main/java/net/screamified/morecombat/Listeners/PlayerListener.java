@@ -46,18 +46,10 @@ public class PlayerListener implements Listener {
         ItemStack getHeldItem = event.getBow();
         ItemMeta bowItemMeta = getHeldItem.getItemMeta();
 
-        player.sendMessage("You shot a bow");
+        if (!(getHeldItem.getItemMeta().hasLore())) { return; }
+        if (!(getHeldItem.getItemMeta().hasDisplayName())) { return; }
+        if (getHeldItem.getItemMeta().displayName().equals("Bow")) { return; }
 
-        if (!(getHeldItem.getItemMeta().hasLore())) {
-            player.sendMessage("No lore");
-            return;
-        }
-        if (!(getHeldItem.getItemMeta().hasDisplayName())) {
-            player.sendMessage("No display name");
-            return;
-        }
-        if (getHeldItem.getItemMeta().getDisplayName().equals("Bow")) { return; }
-        player.sendMessage(bowItemMeta.getDisplayName());
         if (event.getEntity() instanceof Player && (event.getForce() == 1.0) ) {
             for (Abilities ability : BowAbilities.values()) {
                 if (ChatColor.stripColor(ability.toString()).equalsIgnoreCase(ChatColor.stripColor(bowItemMeta.getDisplayName()))) {
