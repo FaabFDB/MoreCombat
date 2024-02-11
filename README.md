@@ -13,3 +13,13 @@ Usages:
 /morecombat addswordability <Ability>
 
 /addpotioneffect <Potion Effect> <Amplify> <Duration eg: M:S, MM:SS>
+
+Showcase:
+
+Meteorshot:
+
+https://github.com/FaabFDB/MoreCombat/blob/master/showcase/MeteorShot.gif
+
+ORBITALSTRIKE:
+
+https://github.com/FaabFDB/MoreCombat/blob/master/showcase/OrbitalStrike.gif
